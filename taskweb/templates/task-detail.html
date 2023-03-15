@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+{%block body%}
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <ul class="list-group">
+                <li class="list-group-item">{{tasks.task_name}}</li>
+                <li class="list-group-item">{{tasks.created_date}}</li>
+                <li class="list-group-item">{{tasks.status}}</li>
+                
+              </ul>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>
+{%endblock%}
